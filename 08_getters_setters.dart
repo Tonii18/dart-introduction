@@ -14,7 +14,7 @@ class Square{
   double _side;
   
   Square({required side})
-    : assert(side >= 0, 'Side must be greater than 0') // It works like a conditional, in such a way the
+    : assert(side >= 0, 'Side must be greater than 0'), // It works like a conditional, in such a way the
                                                        // attribute side must fulfill the condition inside
                                                        // the assert
       _side = side;
